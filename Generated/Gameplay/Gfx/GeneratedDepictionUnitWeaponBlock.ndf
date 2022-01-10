@@ -1749,6 +1749,7 @@ Weapons_Gornostrelki_Mort_82mm_SOV is MAP
 Weapons_Grille is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Grille_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Grille_weapon2_slot1 ),
 ]
 
 Weapons_H38_Beo_GER is MAP
@@ -4856,7 +4857,9 @@ Weapons_Panzer_38t_GER is MAP
 Weapons_Panzer_38t_ROU is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Panzer_38t_ROU_weapon1_slot1 ),
+
     ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Panzer_38t_ROU_weapon2_slot1 ),
+	
     ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Panzer_38t_ROU_weapon3_slot1 ),
 ]
 
@@ -5378,6 +5381,11 @@ Weapons_Ram_II is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Ram_II_weapon1_slot1 ),
     ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Ram_II_weapon3_slot1 ),
+]
+Weapons_Ram_II_Tank_Leader is MAP
+[
+    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Ram_II_Tank_Leader_weapon1_slot1 ),
+    ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Ram_II_Tank_Leader_weapon3_slot1 ),
 ]
 
 Weapons_Ram_II_OP is MAP
@@ -7461,21 +7469,24 @@ Weapons_Toldi_IIA_HON is MAP
 Weapons_Toldi_II_CMD_HON is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon2_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_II_CMD_HON_weapon2_slot2 ),
 ]
 
 Weapons_Toldi_II_HON is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon2_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_II_HON_weapon2_slot2 ),
 ]
 
 Weapons_Toldi_I_HON is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon2_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_I_HON_weapon2_slot2 ),
 ]
 

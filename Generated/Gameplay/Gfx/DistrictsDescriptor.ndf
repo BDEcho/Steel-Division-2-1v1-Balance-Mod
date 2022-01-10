@@ -97,10 +97,10 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
                     )
                     MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 45.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 45
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -273,10 +273,10 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
                     )
                     MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                 )
-                MaxDamages = 15.0
+                MaxDamages = 23.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 15
+                MaxHPForHUD = 23
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -449,10 +449,10 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                     )
                     MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
                 )
-                MaxDamages = 10.0
+                MaxDamages = 15.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 10
+                MaxHPForHUD = 15
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False

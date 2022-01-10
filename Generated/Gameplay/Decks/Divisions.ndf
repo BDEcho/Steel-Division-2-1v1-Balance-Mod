@@ -104,6 +104,7 @@ export Descriptor_Deck_Division_CAN_3CID_Dv2 is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_CAN_3CID_Dv2_Stuart_M3A3_CAN, 1),
         (~/Descriptor_Deck_Pack_TOE_CAN_3CID_Dv2_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_CAN_3CID_Dv2_Truck_Bedford_Supply_CAN, 3),
+		(~/Descriptor_Deck_Pack_TOE_CAN_3CID_Dv2_Ram_II_Tank_Leader, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_CAN_3CID_Dv2
@@ -3035,6 +3036,7 @@ export Descriptor_Deck_Division_FIN_Gr_Raappana_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_PzSchreck_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Rifle_CMD_FIN, 3),
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Rifle_FIN, 8),
+		(~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Rifle_SW, 2),
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Sissi_CMD_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Sissi_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Sissi_LMG_FIN, 2),
@@ -6630,6 +6632,9 @@ export Descriptor_Deck_Division_GR_116_Panzer_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_StuG_III_F, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_Trench, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_sPz_41_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_Panzer_III_M, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_SdKfz_251_18_Beo_105mm_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_SdKfz_251_18_Beo_150mm_GER, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_116_Panzer_multi
@@ -7064,10 +7069,10 @@ export Descriptor_Deck_Division_GR_122_Infanterie_multi is TDeckDivisionDescript
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Gunner_Nest, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_HMG_MG42, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_HMG_Maxim_EST, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_How_leFH18M_105mm_GER, 4),
+        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_How_leFH18M_105mm_GER, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Howz_F22_76mm_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Howz_leIG_18_75mm, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Howz_sFH_18_150mm_GER, 3),
+        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Howz_sFH_18_150mm_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Howz_sIG_33_150mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Ju_87D_5_x1_250_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Ju_87D_5_x1_500_GER, 2),
@@ -7091,7 +7096,7 @@ export Descriptor_Deck_Division_GR_122_Infanterie_multi is TDeckDivisionDescript
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_PzPSturmPio_GR, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_PzPionier_GR, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Rifle_CMD_FIN, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Rifle_EST, 1),
+        (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Rifle_EST, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_SdKfz_7_1_Flakvierling, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Sniper_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_StuG_III_G, 2),
@@ -7102,6 +7107,8 @@ export Descriptor_Deck_Division_GR_122_Infanterie_multi is TDeckDivisionDescript
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Sturmgrenadier_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_TankBuster_FIN, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Trench, 2),
+		(~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Kubelwagen_Beo_150, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Kubelwagen_Beo_105, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_122_Infanterie_multi
@@ -7826,6 +7833,7 @@ export Descriptor_Deck_Division_GR_14_Inf_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_14_Inf_multi_Tiger_E, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_14_Inf_multi_Tiger_E_Fu_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_14_Inf_multi_Trench, 2),
+		(~/Descriptor_Deck_Pack_TOE_GR_14_Inf_multi_Me_109_G6_R4_GER, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_14_Inf_multi
@@ -9334,6 +9342,7 @@ export Descriptor_Deck_Division_GR_1_Fallschirmjager_multi is TDeckDivisionDescr
         (~/Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_Tiger_E_Fu_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_Truck_SPA_38R_Breda_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_Panzerjager_Bren, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_1_Fallschirmjager_multi
@@ -9713,7 +9722,7 @@ export Descriptor_Deck_Division_GR_1_Skijager_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Kdr_Battlegroup_GR, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Marder_III_M, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Me_109G6_GER, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Me_109_G6_R4_GER, 2),
+        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Me_109_G6_R6, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Me_410_x8_50_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_NbW_41_15cm, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Opel_Blitz_Supply, 3),
@@ -9721,13 +9730,13 @@ export Descriptor_Deck_Division_GR_1_Skijager_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_PaK_40_75mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_Panzerjager_Gazelle_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_RSO_Pak40_GER, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SdKfz_10_4, 1),
+        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SdKfz_10_4, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SdKfz_251_3, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SdKfz_7_2_Flak, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Aufklarer_GER, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Fuhrer_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Fusilier, 2),
-        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_GER, 2),
+        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_GER, 4),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_MG42_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Pionier_Fuh_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Pionier_GER, 2),
@@ -9737,7 +9746,7 @@ export Descriptor_Deck_Division_GR_1_Skijager_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiJager_Sturm_GER, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiMortier_120mm_Jager_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_SkiMortier_80mm_Jager_GER, 3),
-        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_StuG_III_G, 1),
+        (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_StuG_III_G, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_StuG_III_G_Fu_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_T34_76_obr_41_CMD_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_1_Skijager_multi_T34_76_obr_42_GER, 1),
@@ -10356,6 +10365,7 @@ export Descriptor_Deck_Division_GR_20_PzGren_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_20_PzGren_multi_StuG_IV_Fu_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_20_PzGren_multi_Tiger_P_Bef_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_20_PzGren_multi_Trench, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_20_PzGren_multi_SdKfz_251_9, 1)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_20_PzGren_multi
@@ -11276,6 +11286,7 @@ export Descriptor_Deck_Division_GR_25_PzGren_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Erstaz_Truppen_GR, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Feldgendarmerie_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Flak_38_20mm, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Flak_43_37mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Flammenwerfer_GR, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Gunner_Nest, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_HMG_MG42, 4),
@@ -11318,6 +11329,7 @@ export Descriptor_Deck_Division_GR_25_PzGren_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_SdKfz_250_8, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_SdKfz_261_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_SdKfz_7_1_Flakvierling, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Flak_43_37mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Stosstruppen_MP44_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_StuG_III_G, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_StuG_III_G_Fu_GER, 1),
@@ -11839,7 +11851,7 @@ export Descriptor_Deck_Division_GR_28_Jager_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_Flamer_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_Fuhrer_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_Fusilier, 3),
-        (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_GER, 4),
+        (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_GER, 5),
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_MG42_GER, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_Pionier_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_28_Jager_multi_Jager_PzB_39_GER, 2),
@@ -13166,6 +13178,8 @@ export Descriptor_Deck_Division_GR_352_Infanterie_multi is TDeckDivisionDescript
         (~/Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_Volksdeutsche_GER, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_leFH16_105mm_GR, 3),
+		(~/Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_Stabswache_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_U630_Wurfrahmen, 2)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_352_Infanterie_multi
@@ -15627,7 +15641,7 @@ export Descriptor_Deck_Division_GR_52_Sicherungs_multi is TDeckDivisionDescripto
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_HMG_MG34_LET, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_HMG_MG42, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_He_111H_16_x32_50_GER, 2),
-        (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Howz_FK39_76mm, 2),
+        (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Howz_FK39_76mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Howz_M1897_75mm_LIT, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Howz_leIG_18_75mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Howz_ob1927_76mm_GER, 1),
@@ -15668,6 +15682,9 @@ export Descriptor_Deck_Division_GR_52_Sicherungs_multi is TDeckDivisionDescripto
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_TAR_Tankhunter_LIT, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_sFH_396, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Ersatz_Pionier_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_B1_bis_Flamm_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Kubelwagen_Beo_76, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_52_Sicherungs_multi
@@ -19175,6 +19192,7 @@ export Descriptor_Deck_Division_GR_Felzmann_Brest_HB is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_Felzmann_Brest_HB_Sicherungs_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Felzmann_Brest_HB_StuG_40, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Felzmann_Brest_HB_SturmPio_SVT_GR, 1),
+		
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_Default
@@ -19841,6 +19859,7 @@ export Descriptor_Deck_Division_GR_Gr_Harteneck_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_Gr_Harteneck_multi_Tiger_E, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_Gr_Harteneck_multi_Tiger_E_Fu_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Gr_Harteneck_multi_Trench, 2),
+		(~/Descriptor_Deck_Pack_TOE_GR_Gr_Harteneck_multi_Flak_36_37mm, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_Gr_Harteneck_multi
@@ -22917,9 +22936,12 @@ export Descriptor_Deck_Division_GR_Koruck_559_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_T34_76_obr_42_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_T60_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_T70_GER, 1),
-        (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Tiger_E, 1),
+        (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Tiger_E, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Valentine_III_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_KV_1A_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Fi_156_Storch_Obs210mm, 1),
+			
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_Koruck_559_multi
@@ -23290,6 +23312,7 @@ export Descriptor_Deck_Division_GR_Panzer_HG_multi is TDeckDivisionDescriptor
     ]
     PackList = MAP
     [
+		(~/Descriptor_Deck_Pack_TOE_GR_Panzer_HG_multi_Kdr_Walkure_GR, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_HG_multi_Aufk_Small_HG_GR, 2),
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_HG_multi_Aufklarer_HG_GR, 3),
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_HG_multi_BMW_R75, 1),
@@ -23539,6 +23562,7 @@ export Descriptor_Deck_Division_GR_Panzer_Lehr_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_Lehr_multi_Tiger_E, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_Lehr_multi_Trench, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Panzer_Lehr_multi_Wespe, 2),
+		(~/Descriptor_Deck_Pack_TOE_GR_Panzer_Lehr_multi_Jagdpanther, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_GR_Panzer_Lehr_multi
@@ -24338,6 +24362,7 @@ export Descriptor_Deck_Division_GR_Pzverbande_Strachwitz_multi is TDeckDivisionD
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_Do_217_E4_x26_50_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_Do_217_E4_x4_500_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_Erkundungstruppe_GER, 1),
+		(~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_SturmPio_SVT_GER, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_FlakPz_Mobelwagen, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_Flak_36_37mm, 1),
         (~/Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_Flak_38_20mm, 1),
@@ -24891,6 +24916,7 @@ export Descriptor_Deck_Division_HO_1_Hussard_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_HO_1_Hussard_multi_Turan_1_HON, 3),
         (~/Descriptor_Deck_Pack_TOE_HO_1_Hussard_multi_Turan_2_CMD_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_1_Hussard_multi_Turan_2_HON, 2),
+		(~/Descriptor_Deck_Pack_TOE_HO_1_Hussard_multi_PaK_97_38_75mm_HON, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_HO_1_Hussard_multi
@@ -25173,16 +25199,21 @@ export Descriptor_Deck_Division_HO_5_Reserve_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_PaK_97_38_75mm_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Panzerschreck_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Pionier_CMD_HON, 1),
-        (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Repl_Rifles_HON, 2),
+        (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Repl_Rifles_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Rifles_CMD_HON, 3),
-        (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Rifles_HON, 8),
+        (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Rifles_HON, 7),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Scout_crew_HON, 2),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Somua_Bef_S35_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Steyr_1500A_HON, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Steyr_1500_FAO_HON, 2),
-        (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_StuG_III_G, 2),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_StuH_42, 1),
         (~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Trench, 2),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_PaK_43_88mm, 1),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Toldi_II_HON, 1),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Ersatz_HON, 2),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_PaK_40_75mm, 1),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Marder_III_M, 1),
+		(~/Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Stormtroopers_HON, 2)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_HO_5_Reserve_multi
@@ -26209,6 +26240,7 @@ export Descriptor_Deck_Division_POL_1_Pancera_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_POL_1_Pancera_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_POL_1_Pancera_multi_Truck_Bedford_Supply_POL, 3),
         (~/Descriptor_Deck_Pack_TOE_POL_1_Pancera_multi_Truck_Morris_Bofors_POL, 4),
+		(~/Descriptor_Deck_Pack_TOE_POL_1_Pancera_multi_Staghound_POL, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_POL_1_Pancera_multi
@@ -26479,7 +26511,7 @@ export Descriptor_Deck_Division_POL_ArmiaKrajowa_multi is TDeckDivisionDescripto
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_DCA_37mm_AWP, 1),
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Fiat_621_Hotchkiss, 1),
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Fiat_621_Supply, 1),
-        (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Flak_38_20mm_AK, 1),
+        (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Flak_38_20mm_AK, 2),
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Flamer_AK, 2),
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Gunner_Nest, 2),
         (~/Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_HMG_MG42_AK_bonne, 1),
@@ -29015,7 +29047,7 @@ export Descriptor_Deck_Division_ROU_4_Munte_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_HMG_Schwarloze_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Howz_M1897_75mm_ROU, 2),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Howz_Schneider_105mm_ROU, 2),
-        (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Howz_Skoda_100mm_ROU, 2),
+        (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Howz_Skoda_100mm_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Hs_129_B2_R2_ACE_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Hs_129_B2_R2_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Hs_129_B2_R5_ROU, 1),
@@ -29065,6 +29097,9 @@ export Descriptor_Deck_Division_ROU_4_Munte_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_VanatoriMunte_Faust_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_VanatoriMunte_ROU, 2),
         (~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Wespe, 1),
+		(~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_TACAM_R2_ROU, 1),
+		(~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Schwimmwagen_Beo_100, 1),
+		(~/Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_AssaultGroup_ROU, 1)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_ROU_4_Munte_multi
@@ -29330,6 +29365,7 @@ export Descriptor_Deck_Division_ROU_5_CavMot_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Mort_60mm_ROU, 4),
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Mort_81mm_ROU, 6),
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Panzer_35t_ROU, 1),
+		(~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Panzer_38t_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Panzer_II_Luchs, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Panzerschreck_ROU, 1),
         (~/Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Pionieri_Aslt_ROU, 1),
@@ -39647,7 +39683,7 @@ export Descriptor_Deck_Division_SOV_184DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Halftrack_M2_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_F22_76mm_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_M20_152mm_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_M30_122mm_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_M30_122mm_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_ZIS3_76mm_Art_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_ZIS3_76mm_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Howz_ob1927_76mm_SOV, 1),
@@ -39694,6 +39730,10 @@ export Descriptor_Deck_Division_SOV_184DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Valentine_IX_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_Valentine_VII_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_WC52_FAO_280_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_OT_34_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_GPA_FAO_122_SOV, 1),
+			
+		
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_184DFusGd_multi
@@ -41101,6 +41141,7 @@ export Descriptor_Deck_Division_SOV_19CChar_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Yak_1B_x2_100_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Yak_3_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Yak_3_ZAKHAROV_Ace_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_multi_T80_SOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_19CChar_multi
@@ -48826,7 +48867,7 @@ export Descriptor_Deck_Division_SOV_26DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Gvardyia_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Gvardyia_LMG_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Gvardyia_SOV, 5),
-        (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Halftrack_M15_AA_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Halftrack_M15_AA_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Halftrack_M2_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Howz_B4_203mm_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Howz_F22_76mm_SOV, 1),
@@ -56576,6 +56617,7 @@ export Descriptor_Deck_Division_SOV_358DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Canon_obr_42_45mmAT_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Chernopidzhachniki_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_DCA_25mm_72K_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_DCA_85mm, 1),																	 																	 
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Gunner_Nest, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Halftrack_M17_AA_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Halftrack_M2_CMD_SOV, 1),
@@ -56629,6 +56671,7 @@ export Descriptor_Deck_Division_SOV_358DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Yak_7B_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Yak_7B_x6_82mm_AP_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_Yak_7B_x6_82mm_FRAG_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_T70_FAO_76_SOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_358DFusGd_multi
@@ -59883,7 +59926,7 @@ export Descriptor_Deck_Division_SOV_3CCharGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_IL_2M_VAP_250_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_IL_2M_x4_100_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_IS_2_obr_43_CMD_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_IS_2_obr_44_SOV, 2),
+        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_IS_2_obr_44_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Kdr_Art_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_M3_Command_Car_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_MG_Maxim_SOV, 1),
@@ -59903,8 +59946,8 @@ export Descriptor_Deck_Division_SOV_3CCharGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Saperny_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Saperny_SMG_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Saperny_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Sherman_M4A2_Cmd_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Sherman_M4A2_SOV, 6),
+        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Sherman_M4A2_Cmd_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Sherman_M4A2_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_SideCar_HarleyD_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_SideCar_MG_HarleyD_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_SideCar_Mortier_HarleyD_SOV, 1),
@@ -59916,6 +59959,11 @@ export Descriptor_Deck_Division_SOV_3CCharGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Valentine_III_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Yak_7B_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Yak_7B_x6_82mm_HE_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Valentine_VII_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Valentine_IX_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_43_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_44_SOV, 2),
+		(~/Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_43_CMD_SOV, 1)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_3CCharGd_multi
@@ -62559,6 +62607,7 @@ export Descriptor_Deck_Division_SOV_43A_Reserve_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_43A_Reserve_multi_Truck_Studebaker_Supply_SOV, 4),
         (~/Descriptor_Deck_Pack_TOE_SOV_43A_Reserve_multi_Yak_9B_x100_PTAB_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_43A_Reserve_multi_Yak_9B_x4_100_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_43A_Reserve_multi_SideCar_HarleyD_FAO_132_SOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_43A_Reserve_multi
@@ -74176,6 +74225,7 @@ export Descriptor_Deck_Division_SOV_7DFus_Esto_multi is TDeckDivisionDescriptor
     ]
     PackList = MAP
     [
+		(~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_SU_122_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_A20_F3_Havoc_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_A20_G_Havoc_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_ATR_PTRS_41_EstSOV, 2),
@@ -74243,6 +74293,7 @@ export Descriptor_Deck_Division_SOV_7DFus_Esto_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_Yak_7B_x6_82mm_AP_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_Yer_2_ACh_30B_x20_100_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_Yer_2_ACh_30B_x3_1000_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_T34_76_obr_42_EstSOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_7DFus_Esto_multi
@@ -75021,7 +75072,7 @@ export Descriptor_Deck_Division_SOV_84DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_SideCar_HarleyD_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_SideCar_MG_HarleyD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Sniper_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_T34_76_obr_41_applique_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_T34_76_obr_41_applique_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Truck_GAZ_AAA_Maxim_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Truck_Studebaker_BM13_SOV, 1),
@@ -75030,6 +75081,7 @@ export Descriptor_Deck_Division_SOV_84DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Tu_2F_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Yak_1B_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_Yak_1B_x2_100_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_84DFusGd_multi_ISU_122_SOV, 1)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_84DFusGd_multi
@@ -77916,7 +77968,7 @@ export Descriptor_Deck_Division_SOV_97DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Pe_2_x4_250_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Po_2_Obs_300mm_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Po_2_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Razvedki_Patrol_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Razvedki_Patrol_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Razvedki_crew_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_SU_85_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Saperny_CMD_SOV, 1),
@@ -77935,6 +77987,8 @@ export Descriptor_Deck_Division_SOV_97DFusGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Truck_GAZ_AAA_Maxim_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Truck_Studebaker_Supply_SOV, 3),
+		(~/Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Howz_M10_152mm_SOV, 1),
+		
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_97DFusGd_multi
@@ -78557,7 +78611,7 @@ export Descriptor_Deck_Division_SOV_9GCavGd_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Jeep_FAO_152_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_MG_Maxim_SOV, 2),
-        (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_Mosin_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_Mosin_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_PTRS_41_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_Razvedki_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_9GCavGd_multi_Kazaki_Reserve_SOV, 1),
@@ -80043,6 +80097,7 @@ export Descriptor_Deck_Division_SOV_GM_39A_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_39A_multi_Truck_Studebaker_Supply_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_39A_multi_Truck_ZIS5V_DSHK_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_39A_multi_Yak_1B_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_GM_39A_multi_Panzer_III_J_SOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_GM_39A_multi
@@ -80345,7 +80400,7 @@ export Descriptor_Deck_Division_SOV_GM_Tyurin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Bunker_Maxim_SOV, 3),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Canon_ZIS2_57mmAT_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Canon_obr_42_45mmAT_SOV, 3),
-        (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_DCA_37mm_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_DCA_37mm_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Flame_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Gunner_Nest, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Halftrack_M2_CMD_SOV, 1),
@@ -80354,7 +80409,7 @@ export Descriptor_Deck_Division_SOV_GM_Tyurin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Howz_ZIS3_76mm_SOV, 4),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Howz_ob1927_76mm_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_IL_2KR_SOV, 1),
-        (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Inz_Saperny_Assault_SOV, 1),
+        (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Inz_Saperny_Assault_SOV, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Inz_Saperny_CMD_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Inz_Saperny_Faust_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Inz_Saperny_Flam_SOV, 1),
@@ -80400,6 +80455,7 @@ export Descriptor_Deck_Division_SOV_GM_Tyurin_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_WC52_FAO_76_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Yak_9T_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Yak_9_SOV, 2),
+		(~/Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_BM_8_24_SOV, 1),
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_GM_Tyurin_multi
@@ -80709,7 +80765,9 @@ export Descriptor_Deck_Division_SOV_NavalGroup_Bakthin is TDeckDivisionDescripto
         (~/Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Truck_GAZ_AAA_Maxim_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Truck_Studebaker_Supply_SOV, 3),
-    ]
+		(~/Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Matilda_IV_CS_SOV, 1),
+		(~/Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Marder_II_SOV, 1),
+    ]	
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_SOV_NavalGroup_Bakthin
     EmblemTexture     = "Texture_Division_Emblem_MG_Bakhtin"
@@ -81082,6 +81140,7 @@ export Descriptor_Deck_Division_SOV_VyborgReserve_multi is TDeckDivisionDescript
     ]
     PackList = MAP
     [
+		(~/Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_T60_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_ATR_PTRS_41_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Artilleur_SOV, 1),
         (~/Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Avtomatchiki_CMD_SOV, 1),
@@ -82073,7 +82132,7 @@ export Descriptor_Deck_Division_US_3rd_Armored_Dv2 is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Scout_US, 3),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_Calliope, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_Jumbo, 2),
-        (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_M4A1OP_US, 2),
+        (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_M4A1OP_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_M4A1_Cmd, 2),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_M4A1_US, 4),
         (~/Descriptor_Deck_Pack_TOE_US_3rd_Armored_Dv2_Sherman_M4A3105_US, 1),
@@ -82254,6 +82313,7 @@ export Descriptor_Deck_Division_US_TF_Butler_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_Stuart_M5A1_US, 1),
         (~/Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_Trench, 2),
         (~/Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_Truck_GMC_Supply, 2),
+		(~/Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_Rifle_Airbone_US, 1)
     ]
     MaxActivationPoints = 50
     CostMatrix = MatrixCostName_US_TF_Butler_multi

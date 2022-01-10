@@ -545,7 +545,7 @@ export UnitEffect_Autoprotection is TEffectsPackDescriptor
         // SetSelectable
         TUnitEffectSetSelectableDescriptor
         (
-            Selectable = False
+            Selectable = True
         ),
 
     ]
@@ -1049,7 +1049,7 @@ export UnitEffect_Critic_Deroute is TEffectsPackDescriptor
         // SetSelectable
         TUnitEffectSetSelectableDescriptor
         (
-            Selectable = False
+            Selectable = True
         ),
 
     ]
@@ -1089,7 +1089,7 @@ export UnitEffect_Critic_Perd_1_PV is TEffectsPackDescriptor
 
     ]
 )
-export UnitEffect_Critic_Pert_2_PV is TEffectsPackDescriptor
+export UnitEffect_Critic_Perd_2_PV is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{51a8f41f-a972-4cb3-91e9-861c360ff7aa}
     NameForDebug       = 'Critic_Pert_2_PV'
@@ -1099,6 +1099,34 @@ export UnitEffect_Critic_Pert_2_PV is TEffectsPackDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
             PhysicalDamageValue      = 2
+        ),
+
+    ]
+)
+export UnitEffect_Critic_Perd_3_PV is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{d6ab0d6a-8f1b-4495-adc6-441453cc26a1}
+    NameForDebug       = 'Critic_Pert_3_PV'
+    EffectsDescriptors = [
+        // InflictPhysicalDamage
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 3
+        ),
+
+    ]
+)
+export UnitEffect_Critic_Perd_4_PV is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{4872e9ef-c32b-4179-b1de-fac1b19176e6}
+    NameForDebug       = 'Critic_Pert_4_PV'
+    EffectsDescriptors = [
+        // InflictPhysicalDamage
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 4
         ),
 
     ]
@@ -2732,6 +2760,19 @@ export UnitEffect_donne_capacite_commandement_3 is TEffectsPackDescriptor
         TUnitEffectAddCapacityDescriptor
         (
             CapacityToAdd = [ ~/Capacite_Aura_Commandement_3 ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_Radio is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0bd77ff1-755d-4f7c-9826-3744c664e11d}
+    NameForDebug       = 'donne_capacite_Radio'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Radio ]
         ),
 
     ]

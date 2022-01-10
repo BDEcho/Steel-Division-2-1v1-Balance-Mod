@@ -7,22 +7,22 @@ DivisionEconomy_Default is
 
 DivisionEconomy_Russian is //80$ de départ, 8pts valant (A=10) (B=20) (C=30), pas plus de 5pts par phase
 [
-    ([ 110, 135, 155], "ECK_EQUI"),     //2/3/3 anciennes valeurs 110/135/155
-    ([ 140, 125, 90], "ECK_VGUARD"),   //5/2/1 anciennes valeurs 150/120/110
-    ([ 120, 170, 80],  "ECK_MAV"),      //4/4/0 anciennes valeurs 120/160/80
-    ([ 110, 115, 175], "ECK_JUGGER"),   //1/2/5 anciennes valeurs 90/120/220
-    ([ 125, 125, 125], "ECK_FLAT"),   //1/2/5 anciennes valeurs 125/125/125
-    ([ 135,  90, 160], "ECK_V"),   //1/2/5 anciennes valeurs 120/90/200
+    ([ 120, 135, 150], "ECK_EQUI"),     //2/3/3 anciennes valeurs 110/135/155
+    ([ 155, 120, 100], "ECK_VGUARD"),   //5/2/1 anciennes valeurs 150/120/110
+    ([ 130, 160, 100],  "ECK_MAV"),      //4/4/0 anciennes valeurs 120/160/80
+//    ([ 110, 120, 180], "ECK_JUGGER"),   //1/2/5 anciennes valeurs 90/120/220
+ //   ([ 125, 125, 125], "ECK_FLAT"),   //1/2/5 anciennes valeurs 125/125/125
+   ([ 140,  100, 150], "ECK_V"),   //1/2/5 anciennes valeurs 120/90/200
 ]
 
 DivisionEconomy_German is //80$ de départ, 8pts vallant (A=10) (B=15) (C=20), pas plus de 5pts par phase
 [
-    ([ 110, 135, 155], "ECK_EQUI"),     //2/3/3 anciennes valeurs 110/140/170
-    ([ 140, 125, 90], "ECK_VGUARD"),   //5/2/1 anciennes valeurs 150/120/110
-    ([ 120, 170, 80],  "ECK_MAV"),      //4/4/0
-    ([ 110, 115, 175], "ECK_JUGGER"),   //1/2/5 anciennes valeurs 90/120/220
-    ([ 125, 125, 125], "ECK_FLAT"),   //1/2/5 anciennes valeurs 125/125/125
-    ([ 135,  90, 160], "ECK_V"),   //1/2/5 anciennes valeurs 120/90/200
+    ([ 120, 135, 150], "ECK_EQUI"),     //2/3/3 anciennes valeurs 110/140/170
+    ([ 155, 120, 100], "ECK_VGUARD"),   //5/2/1 anciennes valeurs 150/120/110
+    ([ 130, 160, 100],  "ECK_MAV"),      //4/4/0
+//    ([ 110, 120, 180], "ECK_JUGGER"),   //1/2/5 anciennes valeurs 90/120/220
+//   ([ 125, 125, 125], "ECK_FLAT"),   //1/2/5 anciennes valeurs 125/125/125
+    ([ 140,  100, 150], "ECK_V"),   //1/2/5 anciennes valeurs 120/90/200
     //([ 100, 125, 140], "ECK_EQUI"),     //2/3/3
     //([ 130, 125, 80 ], "ECK_VGUARD"),   //5/3/0
     //([ 80,  140, 160], "ECK_MAV"),      //0/4/4

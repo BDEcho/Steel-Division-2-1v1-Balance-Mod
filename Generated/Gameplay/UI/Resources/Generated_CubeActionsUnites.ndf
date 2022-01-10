@@ -11484,7 +11484,6 @@ CubeAction_ProductionUnit_Huszar_LMG_HON is TCubeActionProductionUnitButtonInfor
     ]
     Descriptor                   = ~/Descriptor_Unit_Huszar_LMG_HON
 )
-
 CubeAction_ProductionUnit_Huszar_MG42_HON is TCubeActionProductionUnitButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_ProductionUnit_Huszar_MG42_HON"
@@ -11502,7 +11501,23 @@ CubeAction_ProductionUnit_Huszar_MG42_HON is TCubeActionProductionUnitButtonInfo
     ]
     Descriptor                   = ~/Descriptor_Unit_Huszar_MG42_HON
 )
-
+CubeAction_ProductionUnit_Ersatz_HON is TCubeActionProductionUnitButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_ProductionUnit_Ersatz_HON"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Unit_Rifles_HON"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ErsatzHON"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ErsatzHON"
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Descriptor_Unit_Rifles_HON
+)
 CubeAction_ProductionUnit_Huszar_Pionier_HON is TCubeActionProductionUnitButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_ProductionUnit_Huszar_Pionier_HON"
@@ -22013,6 +22028,23 @@ CubeAction_ProductionUnit_Ram_II is TCubeActionProductionUnitButtonInformationsD
     [
     ]
     Descriptor                   = ~/Descriptor_Unit_Ram_II
+)
+CubeAction_ProductionUnit_Ram_II_Tank_Leader is TCubeActionProductionUnitButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_ProductionUnit_Ram_II_Tank_Leader"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Unit_Ram_II"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "Ram2L"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "Ram2L"
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Descriptor_Unit_Ram_II_Tank_Leader
 )
 
 CubeAction_ProductionUnit_Ram_II_OP is TCubeActionProductionUnitButtonInformationsDescriptor

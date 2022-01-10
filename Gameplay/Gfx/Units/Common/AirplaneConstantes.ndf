@@ -15,12 +15,12 @@ MaxPitchForDiveBomb is (65 * Degre)  // Pitch maximal autorisé pour un DiveBomb
 DiveBombRecoveryDuration is 10 // Temps en secondes pendant lequel l'avion vol à basse altitude après avoir largué ses bombes
 
 // Paramètrage du dogfight constre des avions plus lents //
-SpeedRatioForAttackOnVerySlowAirplaneStrategy is 0.45
-SpeedRatioForAttackOnSlowAirplaneStrategy is 0.85
-MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy is 0.20      // en ratio de l'agility radius
-MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy is 0.27 // en ratio de l'agility radius
+SpeedRatioForAttackOnVerySlowAirplaneStrategy is 0.25
+SpeedRatioForAttackOnSlowAirplaneStrategy is 0.5
+MinDistanceBetweenFighterAndTargetForAttackOnSlowAirplaneStrategy is 0.10      // en ratio de l'agility radius
+MaxDistanceBetweenFighterAndTargetForLateralMoveOnSlowAirplaneStrategy is 0.17 // en ratio de l'agility radius
 MaxAngleDifferenceWithTarget is (60 * Degre)
-MaxAngleToConsiderTargetAhead is (50 * Degre)
+MaxAngleToConsiderTargetAhead is (58 * Degre)
 AngleToFakeTargetPosition is (60 * Degre)
 
 // Autres paramètres avions : DEMANDER AUX DEVS AVANT DE MODIFIER //

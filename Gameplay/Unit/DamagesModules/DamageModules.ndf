@@ -66,7 +66,7 @@ Infanterie_StunDamagesRegen is 9999
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
 Infanterie_StunDamagesToGetStunned is 9999
 
-Infanterie_MaxSuppressionDamages is 1250
+Infanterie_MaxSuppressionDamages is 1500
 
 
 // -------------------------------------------------------------------------------------------------
@@ -117,7 +117,7 @@ Airplane_StunDamagesRegen is 9999
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
 Airplane_StunDamagesToGetStunned is 9999
 
-Airplane_MaxSuppressionDamages is 1150
+Airplane_MaxSuppressionDamages is 1000
 
 
 

@@ -7075,6 +7075,21 @@ TagWrapper_UNITE_Ram_II is TTagWrapper
     DescriptorId = GUID:{3d4ddef1-7437-4282-8aca-543f919df576}
     Tag = "UNITE_Ram_II"
 )
+TagWrapper_UNITE_Ram_II_Tank_leader is TTagWrapper
+(
+    DescriptorId = GUID:{1f821ffd-1acf-4393-acb3-861410194cd7}
+    Tag = "UNITE_Ram_II_Tank_Leader"
+)
+TagWrapper_UNITE_Huszarok_MG42_HON is TTagWrapper
+(
+    DescriptorId = GUID:{226b97dd-22fc-4729-a648-41ca35c79829}
+    Tag = "UNITE_Huszarok_MG42_HON"
+)
+TagWrapper_UNITE_Ersatz_HON is TTagWrapper
+(
+    DescriptorId = GUID:{f509428b-9464-4f15-8e4d-eb8899ddac63}
+    Tag = "UNITE_Ersatz_HON"
+)
 TagWrapper_UNITE_Ram_II_OP is TTagWrapper
 (
     DescriptorId = GUID:{05f77dea-6116-4f00-92e4-6b2a4f4a0a83}

@@ -1225,6 +1225,7 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_RSO_ROU,
     ~/Descriptor_Unit_RSO_supply_GER,
     ~/Descriptor_Unit_Ram_II,
+	~/Descriptor_Unit_Ram_II_Tank_Leader,
     ~/Descriptor_Unit_Ram_II_OP,
     ~/Descriptor_Unit_Rangers_Ast_US,
     ~/Descriptor_Unit_Rangers_Ldr_US,
@@ -1280,6 +1281,8 @@ AllUnitsTactic is [
     ~/Descriptor_Unit_Rifles_CMD_ROU,
     ~/Descriptor_Unit_Rifles_Faust_ROU,
     ~/Descriptor_Unit_Rifles_HON,
+	~/Descriptor_Unit_Ersatz_HON,
+	
     ~/Descriptor_Unit_Rifles_Ldr_NZ,
     ~/Descriptor_Unit_Rifles_Maori_NZ,
     ~/Descriptor_Unit_Rifles_NZ,

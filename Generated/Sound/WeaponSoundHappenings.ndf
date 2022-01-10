@@ -9037,7 +9037,14 @@ export SFXWeapon_Kwk38t_37mm_AP is TSoundHappening
     )
     Volume = 2.0
 )
-
+export SFXWeapon_Kwk38t_37mm_HE is TSoundHappening
+(
+    SoundDescList = Template_SoundDescriptorList_SD_37mm
+    (
+        UseSpecialLoop           = False
+    )
+    Volume = 2.0
+)
 export SFXWeapon_Kwk_37t_37mm_AP is TSoundHappening
 (
     SoundDescList = Template_SoundDescriptorList_SD_37mm_douille
@@ -9055,6 +9062,7 @@ export SFXWeapon_Kwk_37t_37mm_HE is TSoundHappening
     )
     Volume = 1.0
 )
+
 
 export SFXWeapon_L2065_20mmL is TSoundHappening
 (

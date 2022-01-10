@@ -2341,7 +2341,11 @@ Weapon_Berlinger_AWP_5 is FXInfantryWeapon_RDG33
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
-
+Weapon_Bicycle_Rifles_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
 Weapon_Bicycle_Rifles_HON_1 is TCompositeHappening
 (
     SubHappenings =
@@ -2381,7 +2385,51 @@ Weapon_Bicycle_Rifles_HON_3 is TCompositeHappening
     ]
 )
 
-Weapon_Bicycle_Rifles_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Huszarok_MG42_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+Weapon_Huszarok_MG42_HON_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_39M_Danuvia_x2
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_39M_Danuvia_x2
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_x10
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_x10
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG42
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG42
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_4 is FXInfantryWeapon_Panzerknacker
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -2521,6 +2569,7 @@ Weapon_Brandenburger_GER_3 is TCompositeHappening
         SFXWeapon_lMG42x2
     ]
 )
+
 
 Weapon_Brandenburger_GER_4 is FXInfantryWeapon_Explosif_GER
 (
@@ -6864,7 +6913,6 @@ Weapon_Huszar_MG42_HON_5 is FXInfantryWeapon_Stielhandgranate_24
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
-
 Weapon_Huszar_Pionier_HON_1 is TCompositeHappening
 (
     SubHappenings =
@@ -17338,7 +17386,6 @@ Weapon_Rifle_SW_4 is TCompositeHappening
         SFXWeapon_Panzerfaust_30
     ]
 )
-
 Weapon_Rifle_SW_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
@@ -17574,6 +17621,55 @@ Weapon_Rifles_HON_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
+)
+
+Weapon_Ersatz_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+Weapon_Ersatz_HON_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_39M_Danuvia
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_39M_Danuvia
+    ]
+)
+
+Weapon_Ersatz_HON_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_FEG_43M_x10
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_FEG_43M_x10
+    ]
+)
+Weapon_Ersatz_HON_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_LMG_24M_Madsen
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_LMG_24M_Madsen
+    ]
+)
+
+Weapon_Ersatz_HON_4 is FXInfantryWeapon_Panzerknacker
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 5
 )
 
 Weapon_Rifles_Ldr_NZ_1 is TCompositeHappening
@@ -20882,12 +20978,12 @@ Weapon_SkiJager_GER_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Kar98_x7
+        FXInfantryWeapon_MP44_x7
         (
             Anchor                = 'Fx_Tir_01'
-            ShotCountInitialValue = 1
+            ShotCountInitialValue = 3
         ),
-        SFXWeapon_Kar98_x7
+        SFXWeapon_MP44_x7
     ]
 )
 

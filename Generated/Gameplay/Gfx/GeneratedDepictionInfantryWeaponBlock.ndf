@@ -1100,6 +1100,30 @@ Weapons_Bicycle_Rifles_HON_Arme_3 is MAP
     ( ['weapon_effet_tag3'], Weapon_Bicycle_Rifles_HON_3 ),
 ]
 
+Weapons_Huszarok_MG42_HON is MAP
+[
+    ( ['weapon_effet_tag5'], Weapon_Huszarok_MG42_HON_5 ),
+]
+
+Weapons_Huszarok_MG42_HON_Arme_1 is MAP
+[
+    ( ['weapon_effet_tag1'], Weapon_Huszarok_MG42_HON_1 ),
+]
+
+Weapons_Huszarok_MG42_HON_Arme_2 is MAP
+[
+    ( ['weapon_effet_tag2'], Weapon_Huszarok_MG42_HON_2 ),
+]
+
+Weapons_Huszarok_MG42_HON_Arme_3 is MAP
+[
+    ( ['weapon_effet_tag3'], Weapon_Huszarok_MG42_HON_3 ),
+]
+
+Weapons_Huszarok_MG42_HON_Arme_4 is MAP
+[
+    ( ['weapon_effet_tag4'], Weapon_Huszarok_MG42_HON_4 ),
+]
 // ---- Weapons_BorderGuards_ROU ----
 Weapons_BorderGuards_ROU is MAP
 [
@@ -7168,7 +7192,26 @@ Weapons_Repl_Rifles_HON_Arme_3 is MAP
 [
     ( ['weapon_effet_tag3'], Weapon_Repl_Rifles_HON_3 ),
 ]
+Weapons_Ersatz_HON is MAP
+[
+    ( ['weapon_effet_tag4'], Weapon_Repl_Rifles_HON_4 ),
+    ( ['weapon_effet_tag5'], Weapon_Repl_Rifles_HON_5 ),
+]
 
+Weapons_Ersatz_HON_Arme_1 is MAP
+[
+    ( ['weapon_effet_tag1'], Weapon_Repl_Rifles_HON_1 ),
+]
+
+Weapons_Ersatz_HON_Arme_2 is MAP
+[
+    ( ['weapon_effet_tag2'], Weapon_Repl_Rifles_HON_2 ),
+]
+
+Weapons_Ersatz_HON_Arme_3 is MAP
+[
+    ( ['weapon_effet_tag3'], Weapon_Repl_Rifles_HON_3 ),
+]
 // ---- Weapons_Rifle_Airbone_US ----
 Weapons_Rifle_Airbone_US is MAP
 [
@@ -7877,6 +7920,7 @@ Weapons_Rifle_Paratrooper_UK_Arme_3 is MAP
 ]
 
 // ---- Weapons_Rifle_SW ----
+
 Weapons_Rifle_SW is MAP
 [
     ( ['weapon_effet_tag5'], Weapon_Rifle_SW_5 ),
@@ -7895,11 +7939,12 @@ Weapons_Rifle_SW_Arme_2 is MAP
 Weapons_Rifle_SW_Arme_3 is MAP
 [
     ( ['weapon_effet_tag3'], Weapon_Rifle_SW_3 ),
-]
 
+]
 Weapons_Rifle_SW_Arme_4 is MAP
 [
     ( ['weapon_effet_tag4'], Weapon_Rifle_SW_4 ),
+
 ]
 
 // ---- Weapons_Rifle_UK ----
@@ -9526,7 +9571,7 @@ Weapons_SkiJager_GER_Arme_1 is MAP
 
 Weapons_SkiJager_GER_Arme_2 is MAP
 [
-    ( ['weapon_effet_tag2'], Weapon_SkiJager_GER_2 ),
+    ( ['weapon_effet_tag1'], Weapon_SkiJager_GER_2 ),
 ]
 
 Weapons_SkiJager_GER_Arme_3 is MAP
