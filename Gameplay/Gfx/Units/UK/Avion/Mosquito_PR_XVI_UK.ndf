@@ -1,0 +1,29 @@
+export ModelFile_Mosquito_PR_XVI_UK is 'GameData:Assets\3D\Units\UK\Avion\Mosquito_PR_XVI\Mosquito_PR_XVI.Ase2NdfBin'
+
+Modele_Mosquito_PR_XVI_UK is TResourceMultiMaterialMeshWithLod
+(
+    FileName = ModelFile_Mosquito_PR_XVI_UK
+    CivMask =  CivMask/Nationalite1
+    TypeMask = TypeMask/Char
+)
+
+Modele_Mosquito_PR_XVI_UK_MID is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:Assets\3D\Units\UK\Avion\Mosquito_PR_XVI_MID\Mosquito_PR_XVI_MID.Ase2NdfBin'
+    CivMask =  CivMask/Nationalite1
+    TypeMask = TypeMask/Char
+)
+
+Modele_Mosquito_PR_XVI_UK_LOW is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:Assets\3D\Units\UK\Avion\LODS\Mosquito_PR_XVI_LOW.Ase2NdfBin'
+    CivMask =  CivMask/Nationalite1
+    TypeMask = TypeMask/Char
+)
+
+Modele_Mosquito_PR_XVI_UK_train is TResourceMultiMaterialMeshWithLod
+(
+    FileName = 'GameData:Assets\3D\Units\UK\Avion\Mosquito_PR_XVI\Mosquito_PR_XVI_train.Ase2NdfBin'
+    CivMask =  CivMask/Nationalite1
+    TypeMask = TypeMask/Char
+)
