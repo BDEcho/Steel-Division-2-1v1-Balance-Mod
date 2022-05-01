@@ -1,0 +1,11 @@
+export PositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb = true
+    PorteurMustBeVisible = True
+)
+
+export VisibilityModuleDescriptor is TVisibilityModuleDescriptor
+(
+    AutoRevealType = EAutoRevealType/AutoRevealAllies
+)
+
