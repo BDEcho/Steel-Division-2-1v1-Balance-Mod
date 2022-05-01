@@ -1424,6 +1424,7 @@ private UnitToUnitTag is TUnitToUnitTagForIAStrat
         ( ~/Descriptor_Unit_RSO_ROU, "UNITE_RSO_ROU" ),
         ( ~/Descriptor_Unit_RSO_supply_GER, "UNITE_RSO_supply_GER" ),
         ( ~/Descriptor_Unit_Ram_II, "UNITE_Ram_II" ),
+		( ~/Descriptor_Unit_Ram_II_Tank_Leader, "UNITE_Ram_II_Tank_Leader" ),
         ( ~/Descriptor_Unit_Ram_II_OP, "UNITE_Ram_II_OP" ),
         ( ~/Descriptor_Unit_Rangers_Ast_US, "UNITE_Rangers_Ast_US" ),
         ( ~/Descriptor_Unit_Rangers_Ldr_US, "UNITE_Rangers_Ldr_US" ),
@@ -2130,7 +2131,7 @@ private UnitToUnitTag is TUnitToUnitTagForIAStrat
         ( ~/Descriptor_Unit_sFH_396, "UNITE_sFH_396" ),
         ( ~/Descriptor_Unit_sPz_41_GER, "UNITE_sPz_41_GER" ),
 
-
+		
         ( ~/Descriptor_Unit_A20_Boston_Mk3_UK, "UNITE_A20_Boston_Mk3_UK" ),
         ( ~/Descriptor_Unit_A20_C_Havoc_SOV, "UNITE_A20_C_Havoc_SOV" ),
         ( ~/Descriptor_Unit_A20_C_Havoc_x1_1000_SOV, "UNITE_A20_C_Havoc_x1_1000_SOV" ),

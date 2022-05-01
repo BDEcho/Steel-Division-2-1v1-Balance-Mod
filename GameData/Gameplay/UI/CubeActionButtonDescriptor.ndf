@@ -736,7 +736,6 @@ export CubeAction_Functionality_SmartHoldFire is Template_CubeActionFunctionalit
     FunctionalityType       = Functionality_SmartHoldFire
     Mapping                 = $/KeyboardOption/Mapping_SmartHoldFire
 )
-
 export CubeAction_Functionality_RiposteStance is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
 (
     CubeActionName          = "CubeAction_Order_RiposteStance"

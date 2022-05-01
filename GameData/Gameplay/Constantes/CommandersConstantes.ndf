@@ -4,7 +4,7 @@ export CommandersConstantes is TCommandersConstantesDescriptor
     SuperCommanderEffect = ~/UnitEffect_Gain_deux_niveau_XP
 
     CommanderTransferCapacityRadius = 5000 * Metre
-    SuperCommanderTransferCapacityRadius = 7500 * Metre
+    SuperCommanderTransferCapacityRadius = 10000 * Metre
 
     CommanderRadiusEffectByLevel =
     [

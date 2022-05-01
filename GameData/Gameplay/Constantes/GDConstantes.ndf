@@ -175,8 +175,7 @@ export Constantes is TTunableConstante
     AngleArrierePourMarcheArriere       = 120 * Degre
     DistancePourDeclencherMarcheArriere = 2000 * Metre   // 1500
     ForcerMarcheAvantPourAttaquer       = true
-    ForcerMarcheAvantPourUnloadAtPosition = true
-    LargeurRoute                        = 60 * Metre // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
+    LargeurRoute                        = 70 * Metre // les trajectoires des véhicules sont décalées de 0.5 * LargeurRoute d'un côté ou de l'autre
     ToleranceLargeurRoutePourMouvementsRapidesShiftes = 2 // multiplicateur de LargeurRoute pour vérifier si la destination d'un movefast est sur la route
     DecalageDepuisLeCentreDansCouloir   = 10 * Metre // décalage des waypoints des unités par rapport au milieu du couloir quand une unité en traverse un
     RapprocherFormationsSelonObstacles  = false
@@ -589,8 +588,10 @@ WargameConstantes is TWargameTunableConstante
                 BleedMultiplicatorBySecondElapsed = // Time in seconds must be a positive integer, and the first line must always start by 0.
                 [
                     (0,    1), // Bleed multiplies by 1 from 0 in-game second.
-                    //(2100, 2), // Bleed multiplies by 2 from 1500 in-game second (35min).
-                    //(2400, 3), // Bleed multiplies by 3 from 2400 in-game seconds (40min).
+                    (2460, 2), // Bleed multiplies by 2 from 2460 in-game second (41 min).
+                    (2760, 3), // Bleed multiplies by 3 from 2760 in-game seconds (46 min).	
+					(3060, 4),  // Bleed multiplies by 4 from 3060 in-game seconds (51 min).
+					(3360, 5), // Bleed multiplies by 5 from 3360 in-game seconds (56 min).																	  
                 ]
             )
         ),
@@ -824,12 +825,12 @@ WargameConstantes is TWargameTunableConstante
 
     PaliersDeDissimulation = MAP
     [
-        (1.0, 'UIPS_VLOW'),
-        (2.0, 'UIPS_LOW'),
-        (3.0, 'UIPS_MED'),
-        (4.0, 'UIPS_HIGH'),
-        (6.0, 'UIPS_VHIGH'),
-        (8.0, 'UIPS_EXCEP'),
+        (1.0, 'CTSBAS'),
+        (2.0, 'CBAS'),
+        (3.0, 'CMED'),
+        (4.0, 'CHAUT'),
+        (6.0, 'CTSHT'),
+        (8.0, 'CEXCEP'),
     ]
 
     PaliersDOptiqueDAltitude = MAP
@@ -844,23 +845,32 @@ WargameConstantes is TWargameTunableConstante
 
     PaliersDOptique = MAP
     [
-        (75, 'UISP_VLOW'),
-        (125, 'UISP_LOW'),
-        (175, 'UISP_MED'),
-        (250, 'UISP_GOOD'),
-        (375, 'UISP_HIGH'),
-        (500, 'UISP_VHIGH'),
+        (60, 'ONIV1'),
+		(75, 'ONIV2'),
+        (100, 'ONIV3'),
+        (160, 'ONIV4'),
+        (230, 'ONIV5'),
+        (340, 'ONIV6'),
+        (475, 'ONIV7'),
+		(525, 'ONIV8'),
+        (550, 'ONIV9'),
     ]
-
-    PaliersDeResilience = MAP
+	
+	PaliersDeResilience = MAP
     [
-        (5, 'UIPS_VLOW'),
-        (7, 'UIPS_LOW'),
-        (9, 'UIPS_MED'),
-        (11, 'UIPS_HIGH'),
-        (13, 'UIPS_VHIGH'),
+        (4, 'RQUATRE'),
+        (5, 'RCINQ'),
+        (6, 'RSIX'),
+        (7, 'RSEPT'),
+        (8, 'RHUIT'),
+        (9, 'RNEUF'),
+        (10, 'RDIX'),
+        (11, 'RONZE'),
+        (12, 'RDOUZE'),
+		(13, 'RTREIZE'),
+		(14, 'RQTORZE'),
+		(15, 'RQUINZE'),
     ]
-
     PaliersDeTransport = MAP
     [
         (1, 'UIPT_VLGHT'),

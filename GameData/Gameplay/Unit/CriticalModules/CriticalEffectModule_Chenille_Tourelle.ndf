@@ -56,7 +56,7 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(6,6) Token='CRITIC19' EffectsPack=~/UnitEffect_Critic_Reload_50 TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Loader wounded -> reload *0.5
         TCriticalEffect(Roll=(7,7) Token='CRITIC6' EffectsPack=~/UnitEffect_Critic_Vitesse_50 TimeOut=-1 RepairCost=50 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission endommagée -> 50% vitesse
         TCriticalEffect(Roll=(8,8) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
-        TCriticalEffect(Roll=(9,9) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Pert_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
+        TCriticalEffect(Roll=(9,9) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Perd_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
         TCriticalEffect(Roll=(10,10) Token='CRITIC15' EffectsPack=~/UnitEffect_Critic_Stop_Armes TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Shooter killed -> Armes stop 30sec
         TCriticalEffect(Roll=(11,11) Token='CRITIC17' EffectsPack=~/UnitEffect_Critic_Full_Stop TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Driver killed -> Full stop 30sec
     ]
@@ -70,7 +70,7 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(5,5) Token='CRITIC7' EffectsPack=~/UnitEffect_Critic_Full_Stop TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission pétée -> Full stop
         TCriticalEffect(Roll=(6,6) Token='CRITIC19' EffectsPack=~/UnitEffect_Critic_Reload_50 TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Loader wounded -> reload *0.5
         TCriticalEffect(Roll=(7,7) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
-        TCriticalEffect(Roll=(8,8) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Pert_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
+        TCriticalEffect(Roll=(8,8) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Perd_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
         TCriticalEffect(Roll=(9,9) Token='CRITIC15' EffectsPack=~/UnitEffect_Critic_Stop_Armes TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Shooter killed -> Armes stop 30sec
         TCriticalEffect(Roll=(10,10) Token='CRITIC16' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Loader killed -> no reload 30sec
     ]
@@ -84,7 +84,7 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(5,5) Token='CRITIC19' EffectsPack=~/UnitEffect_Critic_Reload_50 TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Loader wounded -> reload *0.5
         TCriticalEffect(Roll=(6,6) Token='CRITIC6' EffectsPack=~/UnitEffect_Critic_Vitesse_50 TimeOut=-1 RepairCost=50 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission endommagée -> 50% vitesse
         TCriticalEffect(Roll=(7,7) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
-        TCriticalEffect(Roll=(8,8) Token='CRITIC20' EffectsPack=~/UnitEffect_Critic_Pert_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Incendiary -> perd 2PV
+        TCriticalEffect(Roll=(8,8) Token='CRITIC20' EffectsPack=~/UnitEffect_Critic_Perd_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Incendiary -> perd 2PV
         TCriticalEffect(Roll=(9,9) Token='CRITIC15' EffectsPack=~/UnitEffect_Critic_Stop_Armes TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Shooter killed -> Armes stop 30sec
         TCriticalEffect(Roll=(10,10) Token='CRITIC16' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Loader killed -> no reload 30sec
     ]
@@ -95,7 +95,7 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(3,4) Token='CRITIC5' EffectsPack=~/UnitEffect_Critic_Bailed_Out TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Bailed out
         TCriticalEffect(Roll=(5,6) Token='CRITIC13' EffectsPack=~/UnitEffect_Critic_Tourelle_Bloquee TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Turret stuck -> no rotation tourelle
         TCriticalEffect(Roll=(7,8) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
-        TCriticalEffect(Roll=(9,10) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Pert_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
+        TCriticalEffect(Roll=(9,10) Token='CRITIC21' EffectsPack=~/UnitEffect_Critic_Perd_2_PV TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=True), // Spalling -> perd 2PV
         TCriticalEffect(Roll=(11,12) Token='CRITIC4' EffectsPack=~/UnitEffect_Critic_Bailed_Out TimeOut=-1 RepairCost=100 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew killed -> Bail out
     ]
 
@@ -105,7 +105,7 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(2,2) Token='BOUNCE3' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Loader KO -> no reload 10sec
         TCriticalEffect(Roll=(3,3) Token='BOUNCE4' EffectsPack=~/UnitEffect_Critic_Full_Stop TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Driver KO -> Full stop 10sec
         TCriticalEffect(Roll=(4,5) Token='CRITIC6' EffectsPack=~/UnitEffect_Critic_Vitesse_50 TimeOut=-1 RepairCost=50 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission endommagée -> 50% vitesse
-        TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
+        //TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
     ]
 
     RicochetEffectsOnSides =
@@ -114,8 +114,8 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(2,2) Token='BOUNCE3' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Loader KO -> no reload 10sec
         TCriticalEffect(Roll=(3,3) Token='BOUNCE4' EffectsPack=~/UnitEffect_Critic_Full_Stop TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Driver KO -> Full stop 10sec
         TCriticalEffect(Roll=(4,5) Token='CRITIC6' EffectsPack=~/UnitEffect_Critic_Vitesse_50 TimeOut=-1 RepairCost=50 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission endommagée -> 50% vitesse
-        TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
-        {TCriticalEffect(Roll=(1,65) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
+        //TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
+        TCriticalEffect(Roll=(1,65) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
                 TCriticalEffect(Roll=(66,70) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
                 TCriticalEffect(Roll=(71,75) Token='BOUNCE2' EffectsPack=~/UnitEffect_Critic_Stop_Armes TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Shooter KO -> Armes stop 10sec
                 TCriticalEffect(Roll=(76,80) Token='BOUNCE3' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Loader KO -> no reload 10sec
@@ -131,8 +131,8 @@ export CriticalEffectModule_Chenille_Tourelle is TCriticalEffectModuleDescriptor
         TCriticalEffect(Roll=(2,2) Token='BOUNCE3' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Loader KO -> no reload 10sec
         TCriticalEffect(Roll=(3,3) Token='BOUNCE4' EffectsPack=~/UnitEffect_Critic_Full_Stop TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Driver KO -> Full stop 10sec
         TCriticalEffect(Roll=(4,5) Token='CRITIC6' EffectsPack=~/UnitEffect_Critic_Vitesse_50 TimeOut=-1 RepairCost=50 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Transmission endommagée -> 50% vitesse
-        TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
-        {TCriticalEffect(Roll=(1,60) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
+        //TCriticalEffect(Roll=(6,100) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
+        TCriticalEffect(Roll=(1,60) Token='BOUNCE1' EffectsPack=nil TimeOut=0 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // BOUNCE
                 TCriticalEffect(Roll=(61,65) Token='CRITIC23' EffectsPack=~/UnitEffect_Critic_Deroute TimeOut=30 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=True DisplayOnDeath=False), // Crew panicked -> Deroute
                 TCriticalEffect(Roll=(66,70) Token='BOUNCE2' EffectsPack=~/UnitEffect_Critic_Stop_Armes TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Shooter KO -> Armes stop 10sec
                 TCriticalEffect(Roll=(71,75) Token='BOUNCE3' EffectsPack=~/UnitEffect_Critic_Stop_Reload TimeOut=10 RepairCost=-1 KeepWhenLeavingTerrain=False Unique=False DisplayOnDeath=False), // Loader KO -> no reload 10sec

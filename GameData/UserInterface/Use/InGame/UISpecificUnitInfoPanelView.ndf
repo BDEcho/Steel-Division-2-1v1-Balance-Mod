@@ -1098,7 +1098,9 @@ is TUISpecificUnitInfoPanelViewDescriptor
 
     AttributeDescriptorsPool = MAP
     [
-        // Attribute Strength
+		
+		("AttributeStrengthVehicle",       UnitInfoPanelAttribute(ElementName = "AttributeStrengthVehicle" Token = "UIPA_STR" ValueToken = "UIP_S" HintToken = "HIP_TEAME")),
+		
         ("AttributeStrength",       UnitInfoPanelAttribute(ElementName = "AttributeStrength" Token = "UIPA_STR" ValueToken = "UIP_VAL" HintToken = "HIP_TEAM")),
         // Attribute Speed
         ("AttributeSpeed",          UnitInfoPanelAttribute(ElementName = "AttributeSpeed" Token = "UIPA_SPD" ValueToken = "UIP_KMH" HintToken = "HIP_RSPED" )),
@@ -1126,11 +1128,11 @@ is TUISpecificUnitInfoPanelViewDescriptor
 
     AttributeTypeConfiguration = MAP
     [
-        ("Default", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics" ]),
-        ("Vehicule", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", ]),
-        ("VehiculeSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics",  "AttributeSupply"]),
-        ("VehiculeTransporter", ["AttributeSpeed", "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeTransportSize"]),
-        ("VehiculeTransporterSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeTransportSize", "AttributeSupply", ]),
+        ("Default", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeStrength" ]),
+        ("Vehicule", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeStrengthVehicle", ]),
+        ("VehiculeSupplier", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeStrengthVehicle",  "AttributeSupply"]),
+        ("VehiculeTransporter", [ "AttributeSpeed", "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeStrengthVehicle", "AttributeTransportSize"]),
+        ("VehiculeTransporterSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics","AttributeStrengthVehicle", "AttributeTransportSize", "AttributeSupply", ]),
         ("Infantry", ["AttributeStrength", "AttributeOptics", "AttributeStealth", "AttributeSize", ]),
         ("Airplane", ["AttributeSpeed", "AttributeOptics", "AttributeAgility", "AttributeResilience", ]),
     ]

@@ -406,7 +406,7 @@ export Capacite_Cowering_Rampe_Capacite is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -459,7 +459,7 @@ export Capacite_Cowering_Stop_Capacite is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -512,7 +512,7 @@ export Capacite_Debarque_camion is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -564,7 +564,7 @@ export Capacite_Declare_hors_transport is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = True
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -591,8 +591,8 @@ export Capacite_Discipline is TCapaciteDescriptor
     TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
     AreaShape            = ~/CapaciteAreaShape_circulaire
     ActionRadiusWithBoundingBox = False
-    Radius              = 1000.00 * Metre
-    Range               = 1000.00 * Metre
+    Radius              = 2000.00 * Metre
+    Range               = 2000.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
@@ -667,7 +667,7 @@ export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -720,7 +720,7 @@ export Capacite_Infanterie_Retraite is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -776,7 +776,7 @@ export Capacite_Infanterie_Retraite_Auto is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -833,7 +833,7 @@ export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -885,7 +885,7 @@ export Capacite_Malus_Suppress_AllTime is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -937,7 +937,7 @@ export Capacite_Malus_Suppress_Zone_Influence_Ennemie is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -988,7 +988,7 @@ export Capacite_Menace_Ennemi_Proche is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1040,7 +1040,7 @@ export Capacite_Ordre_Unload_NonArmes is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1091,7 +1091,7 @@ export Capacite_Reddition is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1147,7 +1147,7 @@ export Capacite_Soutien_Allie_Proche is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1199,7 +1199,7 @@ export Capacite_Soutien_Allie_Proche_Commandant is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1251,7 +1251,7 @@ export Capacite_Soutien_Allie_Proche_Commandant_2 is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1303,7 +1303,7 @@ export Capacite_Soutien_Allie_Proche_Commandant_3 is TCapaciteDescriptor
     TargetInTransport      = True
     TargetInSelf           = True
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1355,7 +1355,7 @@ export Capacite_Suicide_IciEtMaintenant is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = True
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[255,0,0,255]
     DisplayRangeThickness  = 0.80
     DisplayRadius             = False
@@ -1407,7 +1407,7 @@ export Capacite_Suicide_SurCetteCibleEnnemie is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = False
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1417,7 +1417,7 @@ export Capacite_Suicide_SurCetteCibleEnnemie is TCapaciteDescriptor
     DisplayRadiusOFFThickness = 0.00
     Price = MAP[]
     TagsCiblePossible = [
-    ]
+		"GroundUnits",]
     Conditions = [
     ]
 )
@@ -1459,7 +1459,7 @@ export Capacite_Suicide_SurCettePosition is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_highlighted
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1480,7 +1480,59 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     Name             = "Tank_Dissimule"
     NameToken        = "None"
     CumulEffect          = ~/CapaciteCumulEffect_jamais
-    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    Declenchement        = ~/CapaciteDeclenchementType_ordre_cibles_une_seule_fois
+    TypeCible            = ~/CapaciteTypeCible_soi
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_soi
+    ActionRadiusWithBoundingBox = False
+    Radius              = 0.00 * Metre
+    Range               = 1.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 30.00
+    Cooldown            = 1.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = False
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+	TargetEffect	= ~/UnitEffect_Tank_bonus_discretion
+    TargetEffectDuration = 300.00
+	SelfEffect       = ~/UnitEffect_Tank_bonus_discretion
+    SelfEffectDuration   = 300.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = 1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = False
+    TargetInTransport      = False
+    TargetInSelf           = False
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected
+    DisplayRangeColor      = D3DRGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    DisplayRadius             = False
+    DisplayRadiusONColor      = D3DRGBA[0,0,0,0]
+    DisplayRadiusOFFColor     = D3DRGBA[0,0,0,0]
+    DisplayRadiusONThickness  = 0.00
+    DisplayRadiusOFFThickness = 0.00
+    Price = MAP[]
+    TagsCiblePossible = ['ChasseurDeChar'
+    ]
+    Conditions = [~/ConditionTagNotRaisedInUnit_Panique_1, ~/ConditionTagNotRaisedInUnit_GroundUnit_Engaged_1, ~/ConditionTagNotRaisedInUnit_Retraite_1
+    ]
+)
+export Capacite_Infiltrate is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{56a42c0d-1bbd-49fc-b255-0168649e348e}
+    Name             = "Infiltrate"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_ordre_cibles_une_seule_fois
     TypeCible            = ~/CapaciteTypeCible_soi
     TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
     InfluenceMapAlliance = ~/AllianceRelation/vide
@@ -1495,13 +1547,14 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
-    CanBeCastFromTransport  = True
+    AllowMovementDuringCast = True
+    CanBeCastFromTransport  = False
     CastEffectDuration = -1.00
     CastEffectBound    = True
-    TargetEffect         = ~/UnitEffect_Tank_bonus_discretion
-    TargetEffectDuration = 2.00
-    SelfEffectDuration   = 0.00
+	TargetEffect = ~/UnitEffect_Supprime_Zone_Dinfluence
+    TargetEffectDuration = 300.00
+	SelfEffect = ~/UnitEffect_Supprime_Zone_Dinfluence
+    SelfEffectDuration   = 300.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
     MaxTargetNb            = 1
@@ -1511,7 +1564,7 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     TargetInTransport      = False
     TargetInSelf           = False
     TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected
     DisplayRangeColor      = D3DRGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     DisplayRadius             = False
@@ -1520,8 +1573,65 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     DisplayRadiusONThickness  = 0.00
     DisplayRadiusOFFThickness = 0.00
     Price = MAP[]
-    TagsCiblePossible = [
+    TagsCiblePossible = ['Raider_Trait'
     ]
-    Conditions = [
+    Conditions = [ ~/ConditionTagNotRaisedInUnit_Panique_1, ~/ConditionTagNotRaisedInUnit_Infanterie_Engaged_1, ~/ConditionTagNotRaisedInUnit_Retraite_1
     ]
 )
+export Capacite_Aura_Radio is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{d5f1b986-607d-4ea7-a34e-f2a5524cc2e6}
+    Name             = "Radio"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_allie
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1500.00 * Metre
+    Range               = 2000.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = True
+    CanBeCastFromTransport  = False
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+    TargetEffect         = ~/UnitEffect_donne_capacite_Radio
+    TargetEffectDuration = 1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = False
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    DisplayRangeColor      = D3DRGBA[207,0,15,255]
+    DisplayRangeThickness  = 0.80
+    DisplayRadius             = False
+    DisplayRadiusONColor      = D3DRGBA[0,0,0,0]
+    DisplayRadiusOFFColor     = D3DRGBA[0,0,0,0]
+    DisplayRadiusONThickness  = 0.00
+    DisplayRadiusOFFThickness = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [ 'Artillerie'
+    ]
+    Conditions = [
+        
+    ]
+)
+
+
+
+
+

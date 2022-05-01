@@ -465,6 +465,11 @@ TagWrapper_Commandant is TTagWrapper
     DescriptorId = GUID:{0eb785d6-861f-4eba-b5b4-e68eafc00755}
     Tag = "Commandant"
 )
+TagWrapper_Raider is TTagWrapper
+(
+    DescriptorId = GUID:{f145f0a7-4ff9-4af9-b781-e37b4cf175f5}
+    Tag = "Raider_Trait"
+)
 TagWrapper_OnProduction_Commandant is TTagWrapper
 (
     DescriptorId = GUID:{4fa536cb-85c9-45a8-aa5a-9b3ade0477f3}
@@ -8059,6 +8064,21 @@ TagWrapper_UNITE_Ram_II is TTagWrapper
 (
     DescriptorId = GUID:{3d4ddef1-7437-4282-8aca-543f919df576}
     Tag = "UNITE_Ram_II"
+)
+TagWrapper_UNITE_Ram_II_Tank_leader is TTagWrapper
+(
+    DescriptorId = GUID:{1f821ffd-1acf-4393-acb3-861410194cd7}
+    Tag = "UNITE_Ram_II_Tank_Leader"
+)
+TagWrapper_UNITE_Huszarok_MG42_HON is TTagWrapper
+(
+    DescriptorId = GUID:{226b97dd-22fc-4729-a648-41ca35c79829}
+    Tag = "UNITE_Huszarok_MG42_HON"
+)
+TagWrapper_UNITE_Ersatz_HON is TTagWrapper
+(
+    DescriptorId = GUID:{f509428b-9464-4f15-8e4d-eb8899ddac63}
+    Tag = "UNITE_Ersatz_HON"
 )
 TagWrapper_UNITE_Ram_II_OP is TTagWrapper
 (
@@ -70744,4 +70764,14 @@ TagWrapper_Capacite_Tank_Dissimule is TTagWrapper
 (
     DescriptorId = GUID:{78157c7b-ef77-4739-9d8e-5e1bdd201f02}
     Tag = "Capacite_Tank_Dissimule"
+)
+TagWrapper_Capacite_Infiltrate is TTagWrapper
+(
+    DescriptorId = GUID:{ecda0d02-4706-4648-8536-34e203ad34cd}
+    Tag = "Capacite_Infiltrate"
+)
+TagWrapper_Capacite_donne_Radio_Aura is TTagWrapper
+(
+    DescriptorId = GUID:{41d2d10e-9cdf-4e06-8144-ee4e7dc28fc1}
+    Tag = "Capacite_donne_Radio_Aura"
 )

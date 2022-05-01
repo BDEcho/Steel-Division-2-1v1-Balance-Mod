@@ -8888,7 +8888,18 @@ private Weapon_Grille_weapon1_slot1 is TCompositeHappening
         SFXWeapon_Howz_sIG_33L11_150mmC_Direct
     ]
 )
-
+private Weapon_Grille_weapon2_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_Howz_sIG_33L11_150mmC_HEAT
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_Howz_sIG_33L11_150mmC_HEAT
+    ]
+)
 // -------------------- H38_Beo_GER --------------------- //
 private Weapon_H38_Beo_GER_weapon1_slot1 is TCompositeHappening
 (
@@ -25827,24 +25838,24 @@ private Weapon_Panzer_III_J_SOV_weapon1_slot1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXWeapon_KwK_38L42_50mm_AP
+        FXWeapon_KwK_39L60_50mm_AP
         (
             Anchor = 'Fx_tourelle1_tir_01'
             TurretIndexAsString = '1'
         ),
-        SFXWeapon_KwK_38L42_50mm_AP
+        SFXWeapon_KwK_39L60_50mm_AP
     ]
 )
 private Weapon_Panzer_III_J_SOV_weapon2_slot1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXWeapon_KwK_38L42_50mm_HE
+        FXWeapon_KwK_39L60_50mm_HE
         (
             Anchor = 'Fx_tourelle1_tir_01'
             TurretIndexAsString = '1'
         ),
-        SFXWeapon_KwK_38L42_50mm_HE
+        SFXWeapon_KwK_39L60_50mm_HE
     ]
 )
 private Weapon_Panzer_III_J_SOV_weapon3_slot1 is TCompositeHappening
@@ -28554,7 +28565,30 @@ private Weapon_Ram_II_weapon3_slot1 is TCompositeHappening
         SFXWeapon_M1919_7_62mm_vehicule
     ]
 )
-
+private Weapon_Ram_II_Tank_Leader_weapon1_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_Canon_QF_6pdr_Portee_AP
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_Canon_QF_6pdr_Portee_AP
+    ]
+)
+private Weapon_Ram_II_Tank_Leader_weapon3_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_M1919_7_62mm_vehicule
+        (
+            Anchor = 'Fx_tourelle3_tir_01'
+            TurretIndexAsString = '3'
+        ),
+        SFXWeapon_M1919_7_62mm_vehicule
+    ]
+)
 // --------------------- Ram_II_OP ---------------------- //
 private Weapon_Ram_II_OP_weapon1_slot1 is TCompositeHappening
 (
@@ -29252,7 +29286,18 @@ private Weapon_SU_152_SOV_weapon1_slot1 is TCompositeHappening
         SFXWeapon_Canon_ML20s_152mm_HE
     ]
 )
-
+private Weapon_SU_152_SOV_weapon2_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_Canon_ML20s_152mm_AP
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_Canon_ML20s_152mm_AP
+    ]
+)
 // --------------------- SU_26_SOV ---------------------- //
 private Weapon_SU_26_SOV_weapon1_slot1 is TCompositeHappening
 (
@@ -41996,6 +42041,18 @@ private Weapon_Toldi_II_CMD_HON_weapon2_slot1 is TCompositeHappening
 (
     SubHappenings =
     [
+        FXWeapon_L2065_20mmL
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_L2065_20mmL
+    ]
+)
+private Weapon_Toldi_II_CMD_HON_weapon3_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
         FXWeapon_Gebauer_40M_8mm_Vehicule
         (
             Anchor = 'Fx_tourelle4_tir_01'
@@ -42027,6 +42084,18 @@ private Weapon_Toldi_II_HON_weapon2_slot1 is TCompositeHappening
 (
     SubHappenings =
     [
+        FXWeapon_L2065_20mmL
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_L2065_20mmL
+    ]
+)
+private Weapon_Toldi_II_HON_weapon3_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
         FXWeapon_Gebauer_40M_8mm_Vehicule
         (
             Anchor = 'Fx_tourelle4_tir_01'
@@ -42055,6 +42124,18 @@ private Weapon_Toldi_I_HON_weapon1_slot1 is TCompositeHappening
     ]
 )
 private Weapon_Toldi_I_HON_weapon2_slot1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_L2065_20mmL
+        (
+            Anchor = 'Fx_tourelle1_tir_01'
+            TurretIndexAsString = '1'
+        ),
+        SFXWeapon_L2065_20mmL
+    ]
+)
+private Weapon_Toldi_I_HON_weapon3_slot1 is TCompositeHappening
 (
     SubHappenings =
     [

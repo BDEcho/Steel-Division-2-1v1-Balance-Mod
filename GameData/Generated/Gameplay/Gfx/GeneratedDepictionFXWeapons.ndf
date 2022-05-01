@@ -8650,7 +8650,7 @@ template FXWeapon_Canon_3inch_Mk1_direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9170,7 +9170,7 @@ template FXWeapon_Canon_M1897A4_75mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9190,7 +9190,7 @@ template FXWeapon_Canon_M1A1_75mmC_HE_Scott
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9430,7 +9430,7 @@ template FXWeapon_Canon_M4_105mmC_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE
+    FX                     = FX_Full_Artillerie_gros
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -11010,7 +11010,7 @@ template FXWeapon_Canon_M10T_152mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -11130,7 +11130,7 @@ template FXWeapon_Canon_ML20s_152mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_tres_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -17164,7 +17164,7 @@ template FXWeapon_Howz_M2_105mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE_douille
+    FX                     = FX_Full_Artillerie_gros
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -18664,7 +18664,7 @@ template FXWeapon_Howz_sIG_18_75mmC_Direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -18724,7 +18724,7 @@ template FXWeapon_Howz_sIG_33L11_150mmC_Direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_tres_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -19864,7 +19864,7 @@ template FXWeapon_KwK_37L24_75mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -20415,7 +20415,6 @@ template FXWeapon_Kwk38t_37mm_HE
     TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
-
 // Weapon 'Kwk_37t_37mm_AP' (type Canon_petit_AP)
 template FXWeapon_Kwk_37t_37mm_AP
 [
@@ -27812,7 +27811,7 @@ template FXWeapon_Obice_75_27_mod_11_AP
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_AP_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -27972,7 +27971,7 @@ template FXWeapon_Obice_78_34_mod_37_SMV_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0

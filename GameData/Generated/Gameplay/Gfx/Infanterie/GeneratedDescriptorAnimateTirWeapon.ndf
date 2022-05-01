@@ -517,6 +517,18 @@ template FXInfantryWeapon_CocktailMolotov [ Anchor, ShotCountInitialValue ] is F
     ImpactPower            = 1.0
     ShotCountInitialValue  = <ShotCountInitialValue>
 )
+template FXInfantryWeapon_CocktailMolotov_AT [ Anchor, ShotCountInitialValue ] is FXInfantry
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_GrenadePineapple
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = 2.
+    ImpactPower            = 1.0
+    ShotCountInitialValue  = <ShotCountInitialValue>
+)
 template FXInfantryWeapon_DP_28 [ Anchor, ShotCountInitialValue ] is FXInfantry
 (
     Anchor                 = <Anchor>
@@ -661,6 +673,18 @@ template FXInfantryWeapon_FEG_31M_kar_x2 [ Anchor, ShotCountInitialValue ] is FX
     ImpactPower            = 1.0
     ShotCountInitialValue  = <ShotCountInitialValue>
 )
+template FXInfantryWeapon_FEG_43M_x9 [ Anchor, ShotCountInitialValue ] is FXInfantry
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Fusil_7mm
+    WithoutPhysics         = True
+    InitialSpeed           = 25000.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = 2.
+    ImpactPower            = 1.0
+    ShotCountInitialValue  = <ShotCountInitialValue>
+)
 template FXInfantryWeapon_FEG_43M_x10 [ Anchor, ShotCountInitialValue ] is FXInfantry
 (
     Anchor                 = <Anchor>
@@ -698,18 +722,6 @@ template FXInfantryWeapon_FEG_43M_x3 [ Anchor, ShotCountInitialValue ] is FXInfa
     ShotCountInitialValue  = <ShotCountInitialValue>
 )
 template FXInfantryWeapon_FEG_43M_x8 [ Anchor, ShotCountInitialValue ] is FXInfantry
-(
-    Anchor                 = <Anchor>
-    FX                     = FX_Full_Fusil_7mm
-    WithoutPhysics         = True
-    InitialSpeed           = 25000.0
-    FluidFriction          = 0.0
-    DirectFire             = False
-    Power                  = 2.
-    ImpactPower            = 1.0
-    ShotCountInitialValue  = <ShotCountInitialValue>
-)
-template FXInfantryWeapon_FEG_43M_x9 [ Anchor, ShotCountInitialValue ] is FXInfantry
 (
     Anchor                 = <Anchor>
     FX                     = FX_Full_Fusil_7mm

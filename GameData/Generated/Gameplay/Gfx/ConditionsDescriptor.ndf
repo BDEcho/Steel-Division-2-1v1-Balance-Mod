@@ -12,6 +12,12 @@ ConditionTagRaisedInUnit_Ennemi_Proche_1 is TConditionTagRaisedInUnit
     Tag             = "Ennemi_Proche"
     Amount          = 1
 )
+ConditionTagNotRaisedInUnit_GroundUnit_Engaged_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{4b908c3b-4469-497c-a371-f732d1819289}
+    Tag             = "GroundUnit_Engaged"
+    Amount          = 1
+)
 ConditionTagRaisedInUnit_GroundUnit_Engaged_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{ad1588bc-a715-4837-b908-214926f99973}
@@ -33,6 +39,12 @@ ConditionTagRaisedInUnit_Infanterie_Cowering_1 is TConditionTagRaisedInUnit
 ConditionTagRaisedInUnit_Infanterie_Engaged_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{ac644ae3-dd48-4029-aac1-8bf5368cf9df}
+    Tag             = "Infanterie_Engaged"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_Infanterie_Engaged_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{26574cf3-7511-4cec-8a61-2d14bab9e3d2}
     Tag             = "Infanterie_Engaged"
     Amount          = 1
 )

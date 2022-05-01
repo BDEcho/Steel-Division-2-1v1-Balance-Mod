@@ -236,6 +236,12 @@ export CubeAction_Menu_Ordres_infs is TCubeActionMenuDescriptor
                 ~/CubeAction_Order_Stop,
             ]
         ),
+		(
+            8,
+            [
+                ~/CubeAction_Capacity_Infiltrate,
+            ]
+        ),
         (
             12,
             [
@@ -321,6 +327,12 @@ export CubeAction_Menu_Ordres_infs_Arme_AP is TCubeActionMenuDescriptor
             8,
             [
                 ~/CubeAction_Functionality_SmartHoldFire,
+            ]
+        ),
+		(
+            9,
+            [
+                ~/CubeAction_Capacity_Infiltrate,
             ]
         ),
         (
@@ -1176,6 +1188,12 @@ export CubeAction_Menu_Ordres_unites_Arme_AP is TCubeActionMenuDescriptor
             10,
             [
                 ~/CubeAction_Order_UnloadFromTransport,
+            ]
+        ),
+		(
+            11,
+            [
+                ~/CubeAction_Capacity_Tank_Dissimule,
             ]
         ),
         (

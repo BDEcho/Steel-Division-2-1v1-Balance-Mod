@@ -516,10 +516,10 @@ CubeAction_Capacity_Tank_Dissimule is TCubeActionCapacityButtonInformationsDescr
     BackgroundTexture            = "Texture_Button_Capacity_Tank_Dissimule"
     HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
     ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
-    ButtonTextToken              = ""
+    ButtonTextToken              = "ht_hide"
     HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
-    HintTitleToken               = ""
-    HintBodyToken                = ""
+    HintTitleToken               = "ht_hide"
+    HintBodyToken                = "hd_hide"
     HintExtendedToken            = ""
     DependanciesToIgnore         =
     [
@@ -527,3 +527,20 @@ CubeAction_Capacity_Tank_Dissimule is TCubeActionCapacityButtonInformationsDescr
     Descriptor                   = ~/Capacite_Tank_Dissimule
 )
 
+CubeAction_Capacity_Infiltrate is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Inflitrate"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Infiltrate"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_sneak"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_sneak"
+    HintBodyToken                = "hd_sneak"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Infiltrate
+)

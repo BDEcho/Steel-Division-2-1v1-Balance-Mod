@@ -1424,6 +1424,7 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_RSO_ROU, ~/Descriptor_ShowRoomUnit_RSO_ROU ),
         ( ~/Descriptor_Unit_RSO_supply_GER, ~/Descriptor_ShowRoomUnit_RSO_supply_GER ),
         ( ~/Descriptor_Unit_Ram_II, ~/Descriptor_ShowRoomUnit_Ram_II ),
+		( ~/Descriptor_Unit_Ram_II_Tank_Leader, ~/Descriptor_ShowRoomUnit_Ram_II_Tank_Leader),
         ( ~/Descriptor_Unit_Ram_II_OP, ~/Descriptor_ShowRoomUnit_Ram_II_OP ),
         ( ~/Descriptor_Unit_Rangers_Ast_US, ~/Descriptor_ShowRoomUnit_Rangers_Ast_US ),
         ( ~/Descriptor_Unit_Rangers_Ldr_US, ~/Descriptor_ShowRoomUnit_Rangers_Ldr_US ),
@@ -1486,6 +1487,8 @@ export ShowRoomEquivalenceManager is TShowRoomEquivalenceManager
         ( ~/Descriptor_Unit_Rifles_India_Ld_UK, ~/Descriptor_ShowRoomUnit_Rifles_India_Ld_UK ),
         ( ~/Descriptor_Unit_Rifles_India_UK, ~/Descriptor_ShowRoomUnit_Rifles_India_UK ),
         ( ~/Descriptor_Unit_Rifles_Ldr_BRZ, ~/Descriptor_ShowRoomUnit_Rifles_Ldr_BRZ ),
+
+		( ~/Descriptor_Unit_Huszar_MG42_HON, ~/Descriptor_ShowRoomUnit_Huszar_MG42_HON ),
         ( ~/Descriptor_Unit_Rifles_Ldr_NZ, ~/Descriptor_ShowRoomUnit_Rifles_Ldr_NZ ),
         ( ~/Descriptor_Unit_Rifles_Ldr_SA, ~/Descriptor_ShowRoomUnit_Rifles_Ldr_SA ),
         ( ~/Descriptor_Unit_Rifles_Maori_NZ, ~/Descriptor_ShowRoomUnit_Rifles_Maori_NZ ),

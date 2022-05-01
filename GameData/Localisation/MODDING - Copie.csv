@@ -1,0 +1,43 @@
+TOKEN;COMMENT;DO NOT TRANSLATE;CONSTRAINT;REFTEXT;CLASSEMENT;ExisteDansSlayer;<p>
+RQUATRE;;;;4 HP;;;<p>
+RCINQ;;;;5 HP;;;<p>
+RSIX;;;;6 HP;;;<p>
+RSEPT;;;;7 HP;;;<p>
+RHUIT;;;;8 HP;;;<p>
+RNEUF;;;;9 HP;;;<p>
+RDIX;;;;10 HP;;;<p>
+RONZE;;;;11 HP;;;<p>
+RDOUZE;;;;12 HP;;;<p>
+RTREIZE;;;;13 HP;;;<p>
+RQTORZE;;;;14 HP;;;<p>
+RQUINZE;;;;15 HP;;;<p>
+VQUATRE;;;;4 HP;;;<p>
+VCINQ;;;;5 HP;;;<p>
+VSIX;;;;6 HP;;;<p>
+VSEPT;;;;7 HP;;;<p>
+VHUIT;;;;8 HP;;;<p>
+VNEUF;;;;9 HP;;;<p>
+VDIX;;;;10 HP;;;<p>
+VONZE;;;;11 HP;;;<p>
+VDOUZE;;;;12 HP;;;<p>
+VTREIZE;;;;13 HP;;;<p>
+VQTORZE;;;;14 HP;;;<p>
+VQUINZE;;;;15 HP;;;<p>
+CTSBAS;;;;less than 1;;;<p>
+CBAS;;;;1,1-2;;;<p>
+CMED;;;;2,1-3;;;<p>
+CHAUT;;;;3,1-4;;;<p>
+CTSHT;;;;4,1-6;;;<p>
+CEXCEP;;;;6,1-8;;;<p>
+ONIV1;;;;60;;;<p>
+ONIV2;;;;75;;;<p>
+ONIV3;;;;100;;;<p>
+ONIV4;;;;160;;;<p>
+ONIV5;;;;230;;;<p>
+ONIV6;;;;340;;;<p>
+ONIV7;;;;475;;;<p>
+ONIV8;;;;525;;;<p>
+ONIV9;;;;550;;;<p>
+Ram2L;;;;RAM II CMD;f211bc77-a3e1-446a-970a-3f9aa840fa94;;<p>
+ErsatzHON;;;;Tártalek Lövész;aa013851-050b-4500-b084-27c7ae54481e;;<p>		
+HuszarMG42;;;;Huszarok (MG-42);66610221-2dcb-417e-b203-d3c36d1094af;;<p>
